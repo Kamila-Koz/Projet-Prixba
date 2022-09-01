@@ -4,4 +4,4 @@ function importAll(r) {
     r.keys().forEach(r);
 };
   
-importAll(require.context('./images/', true, /\.(svg|ico|png|webp|gif|jpg)$/));
+importAll(require.context('./assets/', true, /\.(svg|ico|png|webp|gif|jpg)$/));
