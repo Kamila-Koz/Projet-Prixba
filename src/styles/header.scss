@@ -1,1 +1,65 @@
 @import 'variables';
+
+.bloc_header {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+    background-color: $colorGrey;    
+    }
+    
+    .banner {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding-inline: 1%;
+    }
+
+    .banner_logo {
+        padding-top: 1%;
+    }
+        
+    .banner_menu {
+        display: flex;   
+        flex-flow: column wrap;
+    }
+        .banner_title { 
+        font-weight: bold;
+        color: black;
+        }
+        .banner_buttons {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+            .banner_button {
+                font-size: small;
+                font-weight: bold;
+            }
+    .navbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background-color: $colorBlue;
+        padding: 2%;
+            }
+        .nav_searchbar {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+            .categorie {
+               background-color: #e5e5e5;
+                border-radius: 3px;
+                color: white;
+            }
+            .submit_searchbar {
+                background-color: $colorRed;
+                color: white;
+                border-radius: 3px;
+            }
+        .nav_buttons {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            color: white;
+        } 
