@@ -1,1 +1,34 @@
 @import 'variables';
+
+.section1{
+    background-color: $colorBlue;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.ul_left ul li, .ul_right ul li{
+    list-style-type: none;
+    
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    color: $colorBlue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.section3{
+    background-color: $colorBlue;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.a{
+    margin: 20px;
+}
