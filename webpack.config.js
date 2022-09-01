@@ -21,7 +21,7 @@ module.exports = {
     module:{
         rules: [
             {test: /\.(css|s[ac]ss)$/, use:['style-loader', 'css-loader', 'sass-loader']},
-            {test: /\.(svg|ico|png|webp|gif|jpg)$/, type: 'asset/resource'},
+            {test: /\.(svg|ico|png|webp|gif|jpg|ttf)$/, type: 'asset/resource'},
         ]
     },
     plugins: [
