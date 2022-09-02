@@ -1,6 +1,6 @@
 @import 'variables';
 
-body{
+.products__body{
     width: $widthBody;
     margin: 0 auto;
 }
@@ -58,7 +58,7 @@ img{
 .products__section--bottom{
     display: flex;
     margin-top: 20px;
-    margin-left: 360px;
+    margin-left: 395px;
 }
 
 .products__prix--top{
@@ -70,6 +70,7 @@ img{
 .products__prix--bottom{
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 200px;
 }
 
 .products__prix1{
