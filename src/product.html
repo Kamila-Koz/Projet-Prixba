@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <%= require('html-loader!./htmlComponents/header.html').default %>
     <div class="product_bloc-product">
         <div class="product_show-product">
             <div class="product_show-product-details">
@@ -34,5 +35,6 @@
 
         </div>
     </div>
+    <%= require('html-loader!./htmlComponents/footer.html').default %>
 </body>
 </html>
