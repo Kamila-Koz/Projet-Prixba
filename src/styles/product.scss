@@ -1,1 +1,95 @@
 @import 'variables';
+
+.product_bloc-product {
+    margin:0 auto;
+    width: 80%;
+    background-color: white;
+    margin-top: 3%;
+}
+
+.product_show-product-details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    // align-items: center;
+    
+}
+
+.product_main-picture {
+    background: #FCFCFC;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    width: 497px;
+    height: 501px;
+    margin-right: 1%;
+    
+ }
+
+.product_show-product-details-elements {
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+    .product_show-product-details-description {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 38px;
+    
+}
+
+    
+}
+.product_detail{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    color: $colorBlue;
+    }
+
+.product_show-product-details-shop {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+   
+}
+
+.product_bouton_plus-moins {
+
+    background: #FCFCFC;
+    padding: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.product_bouton_ajouter {
+    background-color: $colorRed;
+    border-radius: 7px;
+    padding: 4%;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.product_picture {
+    width: 121px;
+    height: 95px;
+    margin-top: 3%;
+    margin-right: 2%;
+ }
