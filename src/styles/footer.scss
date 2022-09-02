@@ -1,45 +1,62 @@
 @import 'variables';
 
-.section1{
-    background-color: $colorBlue;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
+footer{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.icone{
-    width: 100px;
+.footer__section1--bande{
+    background-color: $colorBlue;
+    color: rgb(255, 255, 255);   
+}
+
+.footer__section1{
+    width: $widthBody;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__block{
+    margin: 20px;
+    padding-right: 40px;
+}
+
+.footer__icones{
     color: #EA5455;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    margin-top: 50px;
-    padding-bottom: 0px;
+    margin-top: 55px;
+    padding-left: 4px;
+    padding-left: 12px;
+    padding-top: 12px;
 }
 
-.ul_left ul li, .ul_right ul li{
-    list-style-type: none;
-    
-}
-
-.section2{
+.footer__nav--left nav a, .footer__nav--right nav a{
     display: flex;
-    justify-content: space-around;
+    color: $colorBlue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer__section2{
+    display: flex;
+    justify-content: space-between;
     color: $colorBlue;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 2.5;
+    width: $widthBody;
+    margin: 0 auto;
 }
 
 
-.section3{
+.footer__section3{
     background-color: $colorBlue;
-    color: #ffffff;
+    color:rgb(255, 255, 255);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.a{
-    margin: 20px;
-}
