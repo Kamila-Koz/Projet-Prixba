@@ -7,9 +7,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-    <title>Document</title>
+    <title>Prixbas</title>
 </head>
-<body>
+<body class="home__body">
+    <%= require('html-loader!./htmlComponents/header.html').default %>
+    <main class="home__main">
+        <div class="home__bestSale">
+            <h3>Meilleures ventes</h3>  
+            <div class="home__tileProducts">
+                <div class="home__tileProduct">
+                    <img src="./assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" alt="Marteau">
+                    <p class="home__tileProduct__name">Marteau</p>
+                    <p class="home__tileProduct__price"><span class="home__tileProduct__price">1€</span><span class="home__tileProduct__stock">En stock</span></p>
+                </div>
+                <div class="home__tileProduct">
+                    <img src="./assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" alt="Marteau">
+                    <p class="home__tileProduct__name">Marteau</p>
+                    <p class="home__tileProduct__price"><span class="home__tileProduct__price">1€</span><span class="home__tileProduct__stock">En stock</span></p>
+                </div>
+                <div class="home__tileProduct">
+                    <img src="./assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" alt="Marteau">
+                    <p class="home__tileProduct__name">Marteau</p>
+                    <p class="home__tileProduct__price"><span class="home__tileProduct__price">1€</span><span class="home__tileProduct__stock">En stock</span></p>
+                </div>
+                <div class="home__tileProduct">
+                    <img src="./assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" alt="Marteau">
+                    <p class="home__tileProduct__name">Marteau</p>
+                    <p class="home__tileProduct__price"><span class="home__tileProduct__price">1€</span><span class="home__tileProduct__stock">En stock</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <h3>Découvrez nos offres par catégories</h3>
+        </div>
+        <div class="choice">
+            <h3>Avoir le choix chez Prix Marché</h3>
 
+        </div>
+    </main>
+    <%= require('html-loader!./htmlComponents/footer.html').default %>
 </body>
 </html>
