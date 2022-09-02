@@ -59,7 +59,8 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 60%;   
+    width: 40%;
+   
 }
 
 .product_bouton_plus-moins {
@@ -76,7 +77,7 @@
 .product_bouton_ajouter {
     background-color: $colorRed;
     border-radius: 7px;
-    padding: 2%;
+    padding: 4%;
     color: white;
     font-family: 'Roboto';
     font-style: normal;
